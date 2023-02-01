@@ -2,6 +2,12 @@
 
 # Introduction
 
-Hello! I am Yu Tao.
+Surrey AI Imaging Limited is a technology startup based in Surrey, UK. 
 
-Here is a brief introduction about myself...
+
+# People
+
+
+# Expertise
+
+
