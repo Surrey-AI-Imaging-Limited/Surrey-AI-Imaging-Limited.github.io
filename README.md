@@ -11,7 +11,7 @@ Surrey AI Imaging Limited is a technology startup based in Surrey, UK.
     <td style="width:50%; height:300px;">
       <img src="https://surrey-ai-imaging-limited.github.io/pictures/crop-jiao.jpg" alt="Kejing Zhu" width="100%">
       <p>Kejing Zhu: Director and Company Secretary</p>
-      <p>Kejing Zhu brings Surrey AI Imaging Limited her leadership experience in fast growth technology start-ups of various sizes and across sectors including new media, data analysis, mobile applications, education and outreach. She was previously Director of Cross Culture Communications Ltd. and and has a background in accounting and marketing communications. Kejing has a M.A. degree in translation from University of Sussex.</p>
+      <p>Kejing Zhu brings Surrey AI Imaging Limited her leadership experience in fast growth technology start-ups of various sizes and across sectors including new media, data analysis, mobile applications, education and outreach. She was previously Director of Cross Culture Communications Ltd. and and has a background in accounting and marketing communications. Kejing has a M.A. degree in Interpreting from Middlesex University, London.</p>
     </td>
     <td style="width:50%; height:300px;">
       <img src="https://surrey-ai-imaging-limited.github.io/pictures/crop-dou.jpg" alt="Yu Tao" width="100%">
