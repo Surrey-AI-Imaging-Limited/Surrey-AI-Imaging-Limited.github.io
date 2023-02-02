@@ -178,6 +178,8 @@ To be added.
 
 **Large area high-resolution 3D mapping of the lunar surface**
 
+Here we demonstrate using our in-house deep learning-based 3D modelling system to produce a large area high-resolution (260 × 209 km^2 at 1 m/pixel) digital terrain model (DTM) mosaic from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) images, over the Chang’E-4 landing site at Von Kármán crater. The resultant DTM mosaic is co-aligned with the Chang’E-2 (CE-2) and the Lunar Orbiter Laser Altimeter (LOLA) – SELenological and Engineering Explorer (SELENE) blended SLDEM, providing high spatial and vertical congruence. 
+
 To be added.
 
 
