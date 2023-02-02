@@ -38,6 +38,10 @@ Surrey AI Imaging Ltd. is dedicated to providing innovative and cutting-edge sol
 
 # Our work
 
+**Large Area High-Resolution 3D Mapping of Mars.**
+
+Large area, high-resolution, three-Dimensional (3D) mapping of the Martian surface is not only essential for performing key science investigations of the generation and evolution of the planet’s surface, but also critical for supporting existing and future surface robotic missions as well as human exploration. In this work, we demonstrate end-to-end applications of our in-house deep learning-based surface modelling system ...
+
 **Super-3D: subpixel-scale 3D reconstruction from Mar remote sensing imagery using deep learning based image super-resolution and monocular height estimation.**
 
 High-resolution digital terrain models (DTMs or 3D models) play an important role in studying the formation processes involved in generating a modern-day planetary surface such as Mars. However, it has been a common understanding that DTMs derived from a particular imaging dataset can only achieve a lower, or at the best, similar effective spatial resolution compared to the input images, due to the various approximations and/or filtering processes introduced by the photogrammetric and/or photoclinometric pipelines. With recent successes in deep learning techniques, it is now become feasible to improve the effective resolution of an image using super-resolution restoration (SRR) networks, retrieving pixel-scale topography using single-image DTM estimation (SDE) networks, and subsequently, combine the two techniques to produce subpixel-scale topography from only a single-view input image. 
@@ -72,9 +76,34 @@ Increasing the spatial resolution of spaceborne imagery and video using ground-b
   </tr>
 </table>
 
+**Large Area High-Resolution 3D Mapping of the lunar surface**
+
+
+
 **Super-resolution restoration of high-resolution multi-spectral satellite images.**
 
 In contrast to “photo-enhancing” super-resolution (SR/SRR) tasks, the desired SRR outputs of remote sensing applications are fundamentally different. In remote sensing applications, higher signal-to-noise ratio (SNR), minimised artefacts, sharper edges and object outlines, and ultimately, the higher image effective resolution, are much more desirable in comparison to “re-creating” high-frequency textures and/or objects. The original design of the popular photo-SR networks are based on the idea that human vision does not care if the generated high-frequency textures are not strictly correlated with the ground truth as long as they look realistic. Such generated high-frequency textures can significantly improve the “perceptual sharpness” but are considered artefacts in remote sensing or scientific applications. For example, satellite image users probably do not want a synthetic map even it looks extremely real. Therefore, we consider perceptual quality-driven SRR techniques are not suitable to be used directly in any remote sensing applications. In this work, we demonstrate our inhouse multi-spectral deep learning models for remote sensing image super-resolution restoration that improves the image effective resolution but with minimised "photo-realistic" artefacts.
+
+<table>
+  <tr>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/EO-MR-SRR.png" alt="EO MR" width="100%">
+      <p>An example of the 10 m/pixel Sentinel-2 “true” colour image and the 3.44 m/pixel SRR results over a geo-calibration site at Baotou, China.</p>
+    </td>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/EO-MS-SRR.png" alt="EO MS SRR" width="100%">
+      <p>An example of intercomparisons of all spectral bands of our SRR product against the original Sentinel-2 L2A surface reflectance product.</p>
+    </td>
+  </tr>
+</table>
+
+**Multi-Image Cloud Detection and Tracking of Satellite VIS and TIR Images.**
+
+Automated masking and tracking of the ever-changing cloud distributions captured by the Earth observation satellites are of fundamental importance to many remote sensing applications. For surface monitoring and land feature studies, clouds need to be masked and excluded from subsequent processing and analysis. On the other hand, for retrievals of geophysical parameters and atmospheric studies, clouds need to be tracked and extracted for subsequent processing and analysis. Although manual digitisation or using interactive cloud labelling tools can obtain fairly accurate cloud masks from still images, it requires a lot of time and resources, and is not considered effective for continuous cloud masking and tracking tasks. Over the last four decades, satellite observation records have been expanded both spatially and temporally, leading to a variety of automated cloud masking and tracking methods being proposed to address the needs of processing large collections of data. 
+
+...
+
+
 
 
 
