@@ -5,7 +5,7 @@
 
 Surrey AI Imaging Ltd. is a technology startup located in Surrey, UK that specialises in image processing and AI, particularly in the areas of planetary remote sensing and Earth observation. With extensive experience in computer vision, remote sensing, machine learning, and deep learning, the technical team at Surrey AI Imaging Ltd. possesses a comprehensive understanding of image processing algorithms, deep learning models, and their applications to solve complex and challenging problems in planetary and Earth remote sensing. Our expertise encompasses the following applications:
 
-- Satellite image and video super-resolution restoration, including restoration from lower-resolution (>500 m) to higher-resolution (20 m – 4 m) and ultra-high-resolution (30 cm – 1 m) imagery and videos, as well as from visible bands (panchromatic and RGB) to multispectral bands.
+- Satellite image and video super-resolution restoration, including restoration of low-resolution (500 m - 1 km), high-resolution (20 m – 4 m), and ultra-high-resolution (30 cm – 1 m) imagery and videos, as well as from visible bands (panchromatic and RGB) and multispectral bands.
 - Photogrammetry, photoclinometry, structure from motion and monocular height estimation based 3D reconstruction (i.e., digital terrain modelling, topographic mapping).
 - Subpixel-scale 3D reconstruction using coupled deep learning based image super-resolution and monocular height estimation. 
 - Satellite image shadow detection, deshading and reshading using deep learning.
