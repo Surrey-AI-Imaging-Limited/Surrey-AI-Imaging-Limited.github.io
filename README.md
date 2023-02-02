@@ -132,15 +132,15 @@ Example of the derived cloud motion vectors and scene predictions from input GOE
 <div class="table">
   <div class="table-row">
     <div class="table-cell">
-      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-1-1.gif" alt="3D OF 1-1" />
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-1-1-compressed.gif" alt="3D OF 1-1" />
       <p>Input GOES-17 band 02 image</p>
     </div>
     <div class="table-cell">
-      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-1-2.gif" alt="3D OF 1-2" />
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-1-2-compressed.gif" alt="3D OF 1-2" />
       <p>Cloud tracking and motion vectors</p>
     </div>
     <div class="table-cell">
-      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-1-3.gif" alt="3D OF 1-3" />
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-1-3-compressed.gif" alt="3D OF 1-3" />
       <p>Predicted scenes from the derived cloud motion vectors</p>
     </div>
   </div>
@@ -151,15 +151,15 @@ Example of the derived cloud motion vectors and scene predictions from input GOE
 <div class="table">
   <div class="table-row">
     <div class="table-cell">
-      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-2-1.gif" alt="3D OF 1-1" />
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-2-1-compressed.gif" alt="3D OF 1-1" />
       <p>Input GOES-16 band 13 image</p>
     </div>
     <div class="table-cell">
-      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-2-2.gif" alt="3D OF 1-2" />
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-2-2-compressed.gif" alt="3D OF 1-2" />
       <p>Cloud tracking and motion vectors</p>
     </div>
     <div class="table-cell">
-      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-2-3.gif" alt="3D OF 1-3" />
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/of-2-3-compressed.gif" alt="3D OF 1-3" />
       <p>Predicted scenes from the derived cloud motion vectors</p>
     </div>
   </div>
