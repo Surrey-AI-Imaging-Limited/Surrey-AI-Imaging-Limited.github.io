@@ -39,17 +39,19 @@ Super-3D: subpixel-scale 3D reconstruction from Mar remote sensing imagery using
 <table>
   <tr>
     <td style="width:50%; height:300px;">
-      <img src="https://surrey-ai-imaging-limited.github.io/pictures/crop-jiao.jpg" alt="Kejing Zhu" width="100%">
-      <p>Kejing Zhu: Director and Company Secretary</p>
-      <p>Kejing Zhu brings Surrey AI Imaging Limited her leadership experience in fast growth technology start-ups of various sizes and across different industries including new media, data analysis, advertising business, remote sensing applications, education and outreach. She was previously Director of Cross Culture Communications Ltd. and has a background in accounting and marketing communications. Kejing has a M.A. degree in Interpreting from Middlesex University, London.</p>
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/Super-3D.png" alt="Super-3D" width="100%">
+      <p>Example of CaSSIS Super-3D products for Oxia Planum: the landing site of the ESA ExoMars Rosalind Franklin rover. Upper-left: input 4 m TGO CaSSIS image; Upper-right: output 1 m CaSSIS super-resolution resolved image; Lower-left: output 8 m CaSSIS 3D model using monocular height estimation; Lower-right: output 2 m CaSSIS Super-3D model using coupled image super-resolution and monocular height estimation.</p>
     </td>
     <td style="width:50%; height:300px;">
-      <img src="https://surrey-ai-imaging-limited.github.io/pictures/crop-dou.jpg" alt="Yu Tao" width="100%">
-      <p>Dr. Yu Tao, Ph.D.: Technical Director</p>
-      <p>Yu Tao has extensive experience in the remote sensing industry and plantary science with a unique mix of expertise in computer vision, machine learning and deep learning, planetary remote sensing and Earth observation systems as well as software engineering. He has a long track record of successfully leading complex software engineering projects and achieving technology breakthroughs on challenging tasks. Prior to his work with Surrey AI Imaging Ltd. Yu was a senior research scientist at the University College London where he led and developed cutting-edge AI and computer vision software for plantary remote sensing and Earth observation applications. Yu has served as the lead researcher and software engineer in three European Commission 7th Framework – Space projects and as a co-investigator and project manager in two UK Space Agency Centre for Earth Observation and Instrumentation (CEOI) funded Earth observation initiatives. Yu holds a Ph.D. in Planetary 3D Imaging from the University College London and is currently serving as an Honorary Research Fellow at the same institution.</p>
+      <iframe width="300" height="200" src="https://www.youtube.com/watch?v=ulONddVFiOw&list=PL4kOs9mVzcpYiJ1YNd4g5HIdsj3FOQ0Rm&index=15&ab_channel=MachineLearningforPlanetaryandSpacePhysics" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Super-3D for Mars explained.</p>
     </td>
   </tr>
 </table>
+
+Super-Resolution Restoration (SRR) of ultra-high-resolution satellite images
+
+
 
 # Services
 
