@@ -27,10 +27,36 @@ Surrey AI Imaging Ltd. is dedicated to providing innovative and cutting-edge sol
     <td style="width:50%; height:300px;">
       <img src="https://surrey-ai-imaging-limited.github.io/pictures/crop-dou.jpg" alt="Yu Tao" width="100%">
       <p>Dr. Yu Tao, Ph.D.: Technical Director</p>
-      <p>Yu Tao has extensive experience in the remote sensing industry and plantary science with a unique mix of expertise in computer vision, machine learning and deep learning, planetary remote sensing and Earth observation systems as well as software engineering. He has a long track record of successfully leading complex software engineering projects and achieving technology breakthroughs on challenging tasks. Prior to his work with Surrey AI Imaging Ltd. Yu was a senior research scientist at the University College London where he led and developed cutting-edge AI and computer vision software for plantary remote sensing and Earth observation applications. Yu has served as the lead researcher and software engineer in three European Commission 7th Framework – Space projects and as a co-investigator and project manager in two UK Space Agency Centre for Earth Observation and Instrumentation (CEOI) funded Earth observation initiatives. Yu holds a Ph.D. degree in Planetary 3D Imaging from the University College London and a M.Sc. degree in Multimedia Technology and Systems from the University of Surrey.</p>
+      <p>Yu Tao has extensive experience in the remote sensing industry and plantary science with a unique mix of expertise in computer vision, machine learning and deep learning, planetary remote sensing and Earth observation systems as well as software engineering. He has a long track record of successfully leading complex software engineering projects and achieving technology breakthroughs on challenging tasks. Prior to his work with Surrey AI Imaging Ltd. Yu was a senior research scientist at the University College London where he led and developed cutting-edge AI and computer vision software for plantary remote sensing and Earth observation applications. Yu has served as the lead researcher and software engineer in three European Commission 7th Framework – Space projects and as a co-investigator and project manager in two UK Space Agency Centre for Earth Observation and Instrumentation (CEOI) funded Earth observation initiatives. Yu holds a Ph.D. in Planetary 3D Imaging from the University College London and is currently serving as an Honorary Research Fellow at the same institution.</p>
     </td>
   </tr>
 </table>
 
 
-# Demo
+# Our work
+
+
+
+# Services
+
+- Software 
+- Data processing
+- Consultancy
+
+
+# Collaborations 
+
+UCL, NASA JPL, Joanneum Research (Austria)
+
+
+# Contact
+
+Technical and collaboration: yu.tao@ucl.ac.uk
+
+
+# Social Media
+
+- LinkedIn
+- Twitter
+- Facebook
+
