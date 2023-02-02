@@ -107,7 +107,7 @@ In contrast to “photo-enhancing” super-resolution (SR/SRR) tasks, the desire
 
 Automated masking and tracking of the ever-changing cloud distributions captured by the Earth observation satellites are of fundamental importance to many remote sensing applications. For surface monitoring and land feature studies, clouds need to be masked and excluded from subsequent processing and analysis. On the other hand, for retrievals of geophysical parameters and atmospheric studies, clouds need to be tracked and extracted for subsequent processing and analysis. Although manual digitisation or using interactive cloud labelling tools can obtain fairly accurate cloud masks from still images, it requires a lot of time and resources, and is not considered effective for continuous cloud masking and tracking tasks. In this work, we use our in-house deep learning based 3D optical flow pipeline to track and compute the cloud motion vectors, and subsequently using a 3D geometry based automated cloud detection technique to produce accurate cloud masks from either single-camera continuous observation, multi-camera simultaneous observation, and/or multi-camera non-simultaneous observation.
 
-Example of the derived cloud motion vectors and scene predictions from input GOES-17 B02 data (7 June 2021 22.00-23.00 GMT) using deep learning based 3D optical flow.
+Example of the derived cloud motion vectors and scene predictions from input GOES-17 B02 (red visible) images (7 June 2021 22.00-23.00 GMT) using deep learning based 3D optical flow.
 
 <style>
 .table {
@@ -150,7 +150,7 @@ Example of the derived cloud motion vectors and scene predictions from input GOE
   </div>
 </div>
 
-Example of the derived cloud motion vectors and scene predictions from input GOES-16 B13 data (7 June 2021 22.00-23.00 GMT) using deep learning based 3D optical flow.
+Example of the derived cloud motion vectors and scene predictions from input GOES-16 B13 (thermal infrared) images (7 June 2021 22.00-23.00 GMT) using deep learning based 3D optical flow.
 
 <div class="table">
   <div class="table-row">
