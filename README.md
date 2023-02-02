@@ -12,12 +12,14 @@ Surrey AI Imaging Ltd. is a technology startup located in Surrey, UK that specia
 - Satellite image matching, multi-resolution image co-registration and mosaicing.
 - Optical flow and 3D scene flow based feature and scene tracking, such as cloud masking and cloud motion vector retrieval.
 - Object and ground feature detection, segmentation, classification, and tracking for buildings, cars, airplanes, trees, people on the Earth, and rocks, craters, layers, and dynamic surface features on planetary surfaces.
+- Imaging and geospatial data analytics including image effective resolution measurements, multi-spectral statistics, geocalibration and camera model transformations and analysis.
 - GPU optimisations and onboard "smart-sattelite" solutions of remote sensing applications.
 
 Surrey AI Imaging Ltd. is dedicated to providing innovative and cutting-edge solutions to address the challenges faced in the field of satellite imaging and planetary remote sensing.
 
 
 # People
+
 <table>
   <tr>
     <td style="width:50%; height:300px;">
@@ -38,11 +40,7 @@ Surrey AI Imaging Ltd. is dedicated to providing innovative and cutting-edge sol
 
 **Super-3D: subpixel-scale 3D reconstruction from Mar remote sensing imagery using deep learning based image super-resolution and monocular height estimation.**
 
-High-resolution digital terrain models (DTMs) play an important role in studying the formation processes involved in generating a modern-day planetary surface such as Mars. However, it has been a common understanding that DTMs derived from a particular imaging dataset can only achieve a lower, or at the best, similar effective spatial resolution compared to the input images, due to the various approximations and/or filtering processes introduced by the photogrammetric and/or photoclinometric pipelines. With recent successes in deep learning techniques, it is now become feasible to improve the effective resolution of an image using super-resolution restoration (SRR) networks, retrieving pixel-scale topography using single-image DTM estimation (SDE) networks, and subsequently, combine the two techniques to produce subpixel-scale topography from only a single-view input image. In this work, we demonstrate with the UCL MARSGAN SRR [1] and the MADNet SDE [2] systems to produce single-input-image-based DTMs at subpixel-scale spatial resolution [3] using the 4 m/pixel ESA Trace Gas Orbiter Colour and Stereo Surface Imaging System (CaSSIS) “PAN” band images and the 25 cm/pixel NASA Mars Reconnaissance Orbiter High Resolution Imaging Science Experiment (HiRISE) “RED” band images.
-
-[1] Tao, Y.; Conway, S.J.; Muller, J.-P.; Putri, A.R.D.; Thomas, N.; Cremonese, G. Single Image Super-Resolution Restoration of TGO CaSSIS Colour Images: Demonstration with Perseverance Rover Landing Site and Mars Science Targets. Remote Sens. 2021, 13, 1777. 
-[2] Tao, Y.; Muller, J.-P.; Xiong, S.; Conway, S.J. MADNet 2.0: Pixel-Scale Topography Retrieval from Single-View Orbital Imagery of Mars Using Deep Learning. Remote Sens. 2021, 13, 4220.
-[3] Tao, Y.; Xiong, S.; Muller, J.-P.; Michael, G.; Conway, S.J.; Paar, G.; Cremonese, G.; Thomas, N. Subpixel-Scale Topography Retrieval of Mars Using Single-Image DTM Estimation and Super-Resolution Restoration. Remote Sens. 2022, 14, 257.
+High-resolution digital terrain models (DTMs or 3D models) play an important role in studying the formation processes involved in generating a modern-day planetary surface such as Mars. However, it has been a common understanding that DTMs derived from a particular imaging dataset can only achieve a lower, or at the best, similar effective spatial resolution compared to the input images, due to the various approximations and/or filtering processes introduced by the photogrammetric and/or photoclinometric pipelines. With recent successes in deep learning techniques, it is now become feasible to improve the effective resolution of an image using super-resolution restoration (SRR) networks, retrieving pixel-scale topography using single-image DTM estimation (SDE) networks, and subsequently, combine the two techniques to produce subpixel-scale topography from only a single-view input image. 
 
 <table>
   <tr>
@@ -57,9 +55,26 @@ High-resolution digital terrain models (DTMs) play an important role in studying
   </tr>
 </table>
 
-**Super-Resolution Restoration (SRR) of ultra-high-resolution satellite images.**
+**Super-resolution restoration of ultra-high-resolution satellite images.**
 
 Increasing the spatial resolution of spaceborne imagery and video using ground-based processing, or, where feasible, onboard a smart satellite, allows greater amounts of information to be extracted about the scene content. Such processing is generally referred to as super-resolution restoration (SRR). SRR techniques are applicable to images and videos without the usual increased costs and mass, associated with increased bandwidth or larger/heavier optical components, normally required for achieving higher resolution. In particular, enhancing the ultra-high spatial resolution Earth observation (EO) images, or high definition (HD) videos, is an active driver for many applications in the fields of agriculture, forestry, energy and utility maintenance and urban geospatial intelligence. The ability to further improve 30 cm/80 cm EO images and videos into 10 cm/30 cm resolution SRR images and videos will allow EO analytics to be performed in transformative ways.
+
+<table>
+  <tr>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/EO-HR-SRR.png" alt="EO HR EXAMPLE 1" width="100%">
+      <p>Example of the original 31 cm WorldView-3 image and the 9 cm super-resolution result in comparison to the ground-based photos and map of the bar-pattern target. WorldView-3 image courtesy of Maxar 2020. Data provided by the European Space Agency.</p>
+    </td>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/EO-HR-SRR-2.png" alt="EO HR SRR EXAMPLE 2" width="100%">
+      <p>Examples of the 31 cm WorldView-3 image crops and the corresponding super-resolution results showing small buildings over a site in Baotou, China. WorldView-3 image courtesy of Maxar 2020. Data provided by the European Space Agency.</p>
+    </td>
+  </tr>
+</table>
+
+**Super-resolution restoration of high-resolution multi-spectral satellite images.**
+
+In contrast to “photo-enhancing” super-resolution (SR/SRR) tasks, the desired SRR outputs of remote sensing applications are fundamentally different. In remote sensing applications, higher signal-to-noise ratio (SNR), minimised artefacts, sharper edges and object outlines, and ultimately, the higher image effective resolution, are much more desirable in comparison to “re-creating” high-frequency textures and/or objects. The original design of the popular photo-SR networks are based on the idea that human vision does not care if the generated high-frequency textures are not strictly correlated with the ground truth as long as they look realistic. Such generated high-frequency textures can significantly improve the “perceptual sharpness” but are considered artefacts in remote sensing or scientific applications. For example, satellite image users probably do not want a synthetic map even it looks extremely real. Therefore, we consider perceptual quality-driven SRR techniques are not suitable to be used directly in any remote sensing applications. In this work, we demonstrate our inhouse multi-spectral deep learning models for remote sensing image super-resolution restoration that improves the image effective resolution but with minimised "photo-realistic" artefacts.
 
 
 
