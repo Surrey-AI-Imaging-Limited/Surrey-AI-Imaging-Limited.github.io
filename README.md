@@ -124,6 +124,7 @@ Example of the derived cloud motion vectors and scene predictions from input GOE
   display: table-cell;
   width: 33.33%;
   vertical-align: top;
+  padding: 0 10px;
 }
 
 .table-cell img {
