@@ -197,7 +197,8 @@ UCL, NASA JPL, Joanneum Research (Austria)
 
 # Contact
 
-Technical and collaboration: yu.tao@ucl.ac.uk
+General: sail.imaging@gmail.com
+Technical collaboration: yu.tao@ucl.ac.uk
 
 
 # Social Media
