@@ -36,6 +36,13 @@ Surrey AI Imaging Ltd. is dedicated to providing innovative and cutting-edge sol
 # Our work
 
 Super-3D: subpixel-scale 3D reconstruction from Mar remote sensing imagery using deep learning based image super-resolution and monocular height estimation
+
+High-resolution digital terrain models (DTMs) play an important role in studying the formation processes involved in generating a modern-day planetary surface such as Mars. However, it has been a common understanding that DTMs derived from a particular imaging dataset can only achieve a lower, or at the best, similar effective spatial resolution compared to the input images, due to the various approximations and/or filtering processes introduced by the photogrammetric and/or photoclinometric pipelines. With recent successes in deep learning techniques, it is now become feasible to improve the effective resolution of an image using super-resolution restoration (SRR) networks, retrieving pixel-scale topography using single-image DTM estimation (SDE) networks, and subsequently, combine the two techniques to produce subpixel-scale topography from only a single-view input image. In this work, we demonstrate with the UCL MARSGAN SRR [1] and the MADNet SDE [2] systems to produce single-input-image-based DTMs at subpixel-scale spatial resolution [3] using the 4 m/pixel ESA Trace Gas Orbiter Colour and Stereo Surface Imaging System (CaSSIS) “PAN” band images and the 25 cm/pixel NASA Mars Reconnaissance Orbiter High Resolution Imaging Science Experiment (HiRISE) “RED” band images.
+
+[1] Tao, Y.; Conway, S.J.; Muller, J.-P.; Putri, A.R.D.; Thomas, N.; Cremonese, G. Single Image Super-Resolution Restoration of TGO CaSSIS Colour Images: Demonstration with Perseverance Rover Landing Site and Mars Science Targets. Remote Sens. 2021, 13, 1777. 
+[2] Tao, Y.; Muller, J.-P.; Xiong, S.; Conway, S.J. MADNet 2.0: Pixel-Scale Topography Retrieval from Single-View Orbital Imagery of Mars Using Deep Learning. Remote Sens. 2021, 13, 4220.
+[3] Tao, Y.; Xiong, S.; Muller, J.-P.; Michael, G.; Conway, S.J.; Paar, G.; Cremonese, G.; Thomas, N. Subpixel-Scale Topography Retrieval of Mars Using Single-Image DTM Estimation and Super-Resolution Restoration. Remote Sens. 2022, 14, 257.
+
 <table>
   <tr>
     <td style="width:50%; height:300px;">
