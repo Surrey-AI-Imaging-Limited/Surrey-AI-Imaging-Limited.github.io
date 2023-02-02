@@ -105,7 +105,10 @@ In contrast to “photo-enhancing” super-resolution (SR/SRR) tasks, the desire
 
 **Multi-Image Cloud Detection and Tracking of Satellite VIS and TIR Images.**
 
-Automated masking and tracking of the ever-changing cloud distributions captured by the Earth observation satellites are of fundamental importance to many remote sensing applications. For surface monitoring and land feature studies, clouds need to be masked and excluded from subsequent processing and analysis. On the other hand, for retrievals of geophysical parameters and atmospheric studies, clouds need to be tracked and extracted for subsequent processing and analysis. Although manual digitisation or using interactive cloud labelling tools can obtain fairly accurate cloud masks from still images, it requires a lot of time and resources, and is not considered effective for continuous cloud masking and tracking tasks. Over the last four decades, satellite observation records have been expanded both spatially and temporally, leading to a variety of automated cloud masking and tracking methods being proposed to address the needs of processing large collections of data. 
+Automated masking and tracking of the ever-changing cloud distributions captured by the Earth observation satellites are of fundamental importance to many remote sensing applications. For surface monitoring and land feature studies, clouds need to be masked and excluded from subsequent processing and analysis. On the other hand, for retrievals of geophysical parameters and atmospheric studies, clouds need to be tracked and extracted for subsequent processing and analysis. Although manual digitisation or using interactive cloud labelling tools can obtain fairly accurate cloud masks from still images, it requires a lot of time and resources, and is not considered effective for continuous cloud masking and tracking tasks. In this work, we use our in-house deep learning based 3D optical flow pipeline to track and compute the cloud motion vectors, and subsequently using a 3D geometry based automated cloud detection technique to produce accurate cloud masks from either single-camera continuous observation, multi-camera simultaneous observation, and/or multi-camera non-simultaneous observation.
+
+
+
 
 ...
 
