@@ -52,18 +52,11 @@ Large area, high-resolution, three-Dimensional (3D) mapping of the Martian surfa
 
 High-resolution digital terrain models (DTMs or 3D models) play an important role in studying the formation processes involved in generating a modern-day planetary surface such as Mars. However, it has been a common understanding that DTMs derived from a particular imaging dataset can only achieve a lower, or at the best, similar effective spatial resolution compared to the input images, due to the various approximations and/or filtering processes introduced by the photogrammetric and/or photoclinometric pipelines. With recent successes in deep learning techniques, it is now become feasible to improve the effective resolution of an image using super-resolution restoration (SRR) networks, retrieving pixel-scale topography using single-image DTM estimation (SDE) networks, and subsequently, combine the two techniques to produce subpixel-scale topography from only a single-view input image. 
 
-<table>
-  <tr>
-    <td style="width:50%; height:300px;">
-      <img src="https://surrey-ai-imaging-limited.github.io/demos/Super-3D.png" alt="Super-3D" width="100%">
-      <p>Example of CaSSIS Super-3D products for Oxia Planum: the landing site of the ESA ExoMars Rosalind Franklin rover. Upper-left: input 4 m TGO CaSSIS image; Upper-right: output 1 m CaSSIS super-resolution resolved image; Lower-left: output 8 m CaSSIS 3D model using monocular height estimation; Lower-right: output 2 m CaSSIS Super-3D model using coupled image super-resolution and monocular height estimation.</p>
-    </td>
-    <td style="width:50%; height:300px;">
-      <iframe width="300" height="200" src="https://www.youtube.com/embed/ulONddVFiOw?list=PL4kOs9mVzcpYiJ1YNd4g5HIdsj3FOQ0Rm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      
-      <p>subpixel-scale 3D reconstruction from Mar remote sensing imagery explained.</p>
-    </td>
-  </tr>
-</table>
+![Super-3D](https://surrey-ai-imaging-limited.github.io/demos/Super-3D.png)
+Example of CaSSIS Super-3D products for Oxia Planum: the landing site of the ESA ExoMars Rosalind Franklin rover. Zoom-out views (from left to right, top to bottom): An example of the 4 m CaSSIS NPB band images, 1 m CaSSIS PAN band super-resolution resolved images, intensity adjusted and blended mosaic from the 1 m CaSSIS PAN band super-resolution resolved images, 2 m CaSSIS Super-3D digital terrain model (colourised by height), 2 m CaSSIS Super-3D shaded relief image. Zoom-in views: input 4 m TGO CaSSIS image (upper-left); output 1 m CaSSIS super-resolution resolved image (upper-right); output 8 m CaSSIS 3D model using monocular height estimation (lower-left); output 2 m CaSSIS Super-3D model using coupled image super-resolution and monocular height estimation (lower-right).
+
+
+Subpixel-scale 3D reconstruction from Mar remote sensing imagery explained.
 
 **Super-resolution restoration of ultra-high-resolution satellite images.**
 
@@ -181,10 +174,11 @@ Examples of the input HiRISE images, before HiRISE-to-CTX image co-registration 
 
 **Automated dynamic feature tracking.**
 
+To be added.
 
+**Large area high-resolution 3D mapping of the lunar surface**
 
-**Large Area High-Resolution 3D Mapping of the lunar surface**
-
+To be added.
 
 
 # Services
@@ -210,3 +204,4 @@ Technical and collaboration: yu.tao@ucl.ac.uk
 - Twitter
 - Facebook
 
+To be added.
