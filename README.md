@@ -82,10 +82,6 @@ Increasing the spatial resolution of spaceborne imagery and video using ground-b
   </tr>
 </table>
 
-**Large Area High-Resolution 3D Mapping of the lunar surface**
-
-
-
 **Super-resolution restoration of high-resolution multi-spectral satellite images.**
 
 In contrast to “photo-enhancing” super-resolution (SR/SRR) tasks, the desired SRR outputs of remote sensing applications are fundamentally different. In remote sensing applications, higher signal-to-noise ratio (SNR), minimised artefacts, sharper edges and object outlines, and ultimately, the higher image effective resolution, are much more desirable in comparison to “re-creating” high-frequency textures and/or objects. The original design of the popular photo-SR networks are based on the idea that human vision does not care if the generated high-frequency textures are not strictly correlated with the ground truth as long as they look realistic. Such generated high-frequency textures can significantly improve the “perceptual sharpness” but are considered artefacts in remote sensing or scientific applications. For example, satellite image users probably do not want a synthetic map even it looks extremely real. Therefore, we consider perceptual quality-driven SRR techniques are not suitable to be used directly in any remote sensing applications. In this work, we demonstrate our inhouse multi-spectral deep learning models for remote sensing image super-resolution restoration that improves the image effective resolution but with minimised "photo-realistic" artefacts.
@@ -168,6 +164,28 @@ Example of the derived cloud motion vectors and scene predictions from input GOE
     </div>
   </div>
 </div>
+
+
+**Automated multi-resolution image co-registration of Mars orbital datasets.**
+
+Automated multi-resolution HiRISE (25 cm), CaSSIS (4.5 m), CTX (6 m) and HRSC (12.5 m) image co-registration is performed using global least squares fitting and mutual shape adapted feature matching algorithms. The co-registration accuracy achieved is up to the subpixel level of the coarser layer. 
+
+![CTX Coreg](https://surrey-ai-imaging-limited.github.io/demos/coreg-ctx.png)
+
+Examples of the input CTX images, before CTX-to-HRSC image co-registration (1st row) and after CTX-to-HRSC image co-registration (2nd row). The example CTX images are in side-by-side views with the corresponding HRSC MC-11W level 5 orthorectified image mosaic (1st and 3rd columns) and in side-by-side views with the neighbouring CTX images (2nd and 4th columns).
+
+![HiRISE Coreg](https://surrey-ai-imaging-limited.github.io/demos/coreg-hirise.png)
+
+Examples of the input HiRISE images, before HiRISE-to-CTX image co-registration (1st row), and after HiRISE-to-CTX image co-registration (2nd row). The example HiRISE images are in side-by-side views with the corresponding CTX images (HRSC co-registered; 1st and 3rd columns) and in side-by-side views with the neighbouring HiRISE images (2nd and 4th columns).
+
+
+**Automated dynamic feature tracking.**
+
+
+
+**Large Area High-Resolution 3D Mapping of the lunar surface**
+
+
 
 # Services
 
