@@ -43,8 +43,8 @@ Super-3D: subpixel-scale 3D reconstruction from Mar remote sensing imagery using
       <p>Example of CaSSIS Super-3D products for Oxia Planum: the landing site of the ESA ExoMars Rosalind Franklin rover. Upper-left: input 4 m TGO CaSSIS image; Upper-right: output 1 m CaSSIS super-resolution resolved image; Lower-left: output 8 m CaSSIS 3D model using monocular height estimation; Lower-right: output 2 m CaSSIS Super-3D model using coupled image super-resolution and monocular height estimation.</p>
     </td>
     <td style="width:50%; height:300px;">
-      <iframe width="300" height="200" src="https://www.youtube.com/watch?v=ulONddVFiOw&list=PL4kOs9mVzcpYiJ1YNd4g5HIdsj3FOQ0Rm&index=15&ab_channel=MachineLearningforPlanetaryandSpacePhysics" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p>Super-3D for Mars explained.</p>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/ulONddVFiOw?list=PL4kOs9mVzcpYiJ1YNd4g5HIdsj3FOQ0Rm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      
+      <p>subpixel-scale 3D reconstruction from Mar remote sensing imagery explained.</p>
     </td>
   </tr>
 </table>
