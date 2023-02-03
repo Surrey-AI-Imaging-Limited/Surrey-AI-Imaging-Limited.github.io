@@ -176,7 +176,7 @@ Examples of the input HiRISE images, before HiRISE-to-CTX image co-registration 
 
 To be added.
 
-**Large area high-resolution 3D mapping of the lunar surface**
+**Large area high-resolution 3D mapping of the lunar surface.**
 
 Here we demonstrate using our in-house deep learning-based 3D modelling system to produce a large area high-resolution (260 × 209 km² at 1 m/pixel) digital terrain model (DTM) mosaic from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) images, over the Chang’E-4 landing site at Von Kármán crater. The resultant DTM mosaic is co-aligned with the Chang’E-2 (CE-2) and the Lunar Orbiter Laser Altimeter (LOLA) – SELenological and Engineering Explorer (SELENE) blended SLDEM, providing high spatial and vertical congruence. 
 
@@ -201,6 +201,23 @@ Here we demonstrate using our in-house deep learning-based 3D modelling system t
     <td style="width:50%; height:300px;">
       <img src="https://surrey-ai-imaging-limited.github.io/demos/moon-4.png" alt="moon-4" width="100%">
       <p>An example of the zoom-in views of the NASA PDS LROC NAC image (NAC_DTM_CHANGE4_M1303619844_140CM.IMG), the NASA PDS LROC NAC DTM (NAC_DTM_CHANGE4_E458S1775), and our LROC NAC DTM. The DTMs are shown as colourised heights (top) and shaded relief images (bottom).</p>
+    </td>
+  </tr>
+</table>
+
+**Wide baseline stereo reconstruction of ground-based Mars rover imagery.**
+
+In this work, we collect multi-view imaging data from ground-level robotic and orbital sensors covering the past and on-going Mars rover missions, e.g., Spirit, Opportunity, Curiosity, and process them into a coherent set of co-registered 3D imaging products using our inhouse photogrammetric and structure from motion stereo reconstruction pipelines. We generate and fuse multi-resolution ground-level 3D models from different instruments onboard the same rover, e.g., Mastcam and Navcam from Curiosity, Pancam and Navcam from Spirit and Opportunity, using a combination of traditional computer vision algorithms, including subpixel-scale feature matching, region growing, bundle adjustment, and 3D point cloud co-alignment. These digitised multi-resolution 3D ground-level products enable the “virtual geologist” to perform close-up visual analysis of key Mar surface features, e.g., sedimentary layers, bedrocks, etc., and make measurements (e.g., distance, dip and slope) at the highest possible level of details and accuracy.
+
+<table>
+  <tr>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/rover-1.gif" alt="rover-1" width="100%">
+      <p>3D reconstruction results of the Navcam (greyscale) and Mastcam (RGB colour) images onboard the Mars Science Laboratory's Curiosity rover (at Solar day 120 – Shaler).</p>
+    </td>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/rover-2.gif" alt="rover-2" width="100%">
+      <p>3D reconstruction results and examples of 3D distance measurements of the Mastcam images onboard the Mars Science Laboratory's Curiosity rover (at Solar day 131 – Gillespie Lake).</p>
     </td>
   </tr>
 </table>
