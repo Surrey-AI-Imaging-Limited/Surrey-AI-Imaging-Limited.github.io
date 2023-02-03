@@ -53,7 +53,7 @@ Large area, high-resolution, three-Dimensional (3D) mapping of the Martian surfa
 High-resolution digital terrain models (DTMs or 3D models) play an important role in studying the formation processes involved in generating a modern-day planetary surface such as Mars. However, it has been a common understanding that DTMs derived from a particular imaging dataset can only achieve a lower, or at the best, similar effective spatial resolution compared to the input images, due to the various approximations and/or filtering processes introduced by the photogrammetric and/or photoclinometric pipelines. With recent successes in deep learning techniques, it is now become feasible to improve the effective resolution of an image using super-resolution restoration (SRR) networks, retrieving pixel-scale topography using single-image DTM estimation (SDE) networks, and subsequently, combine the two techniques to produce subpixel-scale topography from only a single-view input image. 
 
 ![Super-3D](https://surrey-ai-imaging-limited.github.io/demos/Super-3D.png)
-Example of CaSSIS Super-3D products for Oxia Planum: the landing site of the ESA ExoMars Rosalind Franklin rover. Zoom-out views (from left to right, top to bottom): An example of the 4 m CaSSIS NPB band images, 1 m CaSSIS PAN band super-resolution resolved images, intensity adjusted and blended mosaic from the 1 m CaSSIS PAN band super-resolution resolved images, 2 m CaSSIS Super-3D digital terrain model (colourised by height), 2 m CaSSIS Super-3D shaded relief image. Zoom-in views: input 4 m TGO CaSSIS image (upper-left); output 1 m CaSSIS super-resolution resolved image (upper-right); output 8 m CaSSIS 3D model using monocular height estimation (lower-left); output 2 m CaSSIS Super-3D model using coupled image super-resolution and monocular height estimation (lower-right).
+Examples of CaSSIS Super-3D products for Oxia Planum: the landing site of the ESA ExoMars Rosalind Franklin rover. Zoom-out views (from left to right, top to bottom): An example of the 4 m CaSSIS NPB band images, 1 m CaSSIS PAN band super-resolution resolved images, intensity adjusted and blended mosaic from the 1 m CaSSIS PAN band super-resolution resolved images, 2 m CaSSIS Super-3D digital terrain model (colourised by height), 2 m CaSSIS Super-3D shaded relief image. Zoom-in views: input 4 m TGO CaSSIS image (upper-left); output 1 m CaSSIS super-resolution resolved image (upper-right); output 8 m CaSSIS 3D model using monocular height estimation (lower-left); output 2 m CaSSIS Super-3D model using coupled image super-resolution and monocular height estimation (lower-right).
 
 <iframe width="1050" height="591" src="https://www.youtube.com/embed/yWI2DLFdk_g" title="Super-3D: subpixel-scale 3D reconstruction from Mar remote sensing imagery using deep learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 Subpixel-scale 3D reconstruction from Mar remote sensing imagery explained.
@@ -66,7 +66,7 @@ Increasing the spatial resolution of spaceborne imagery and video using ground-b
   <tr>
     <td style="width:50%; height:300px;">
       <img src="https://surrey-ai-imaging-limited.github.io/demos/EO-HR-SRR.png" alt="EO HR EXAMPLE 1" width="100%">
-      <p>Example of the original 31 cm WorldView-3 image and the 9 cm super-resolution result in comparison to the ground-based photos and map of the bar-pattern target. WorldView-3 image courtesy of Maxar 2020. Data provided by the European Space Agency.</p>
+      <p>Examples of the original 31 cm WorldView-3 image and the 9 cm super-resolution result in comparison to the ground-based photos and map of the bar-pattern target. WorldView-3 image courtesy of Maxar 2020. Data provided by the European Space Agency.</p>
     </td>
     <td style="width:50%; height:300px;">
       <img src="https://surrey-ai-imaging-limited.github.io/demos/EO-HR-SRR-2.png" alt="EO HR SRR EXAMPLE 2" width="100%">
@@ -96,7 +96,7 @@ In contrast to “photo-enhancing” super-resolution (SR/SRR) tasks, the desire
 
 Automated masking and tracking of the ever-changing cloud distributions captured by the Earth observation satellites are of fundamental importance to many remote sensing applications. For surface monitoring and land feature studies, clouds need to be masked and excluded from subsequent processing and analysis. On the other hand, for retrievals of geophysical parameters and atmospheric studies, clouds need to be tracked and extracted for subsequent processing and analysis. Although manual digitisation or using interactive cloud labelling tools can obtain fairly accurate cloud masks from still images, it requires a lot of time and resources, and is not considered effective for continuous cloud masking and tracking tasks. In this work, we use our in-house deep learning based 3D optical flow pipeline to track and compute the cloud motion vectors, and subsequently using a 3D geometry based automated cloud detection technique to produce accurate cloud masks from either single-camera continuous observation, multi-camera simultaneous observation, and/or multi-camera non-simultaneous observation.
 
-Example of the derived cloud motion vectors and scene predictions from input GOES-17 B02 (red visible) images (7 June 2021 22.00-23.00 GMT) using deep learning based 3D optical flow.
+An example of the derived cloud motion vectors and scene predictions from input GOES-17 B02 (red visible) images (7 June 2021 22.00-23.00 GMT) using deep learning based 3D optical flow.
 
 <style>
 .table {
@@ -139,7 +139,7 @@ Example of the derived cloud motion vectors and scene predictions from input GOE
   </div>
 </div>
 
-Example of the derived cloud motion vectors and scene predictions from input GOES-16 B13 (thermal infrared) images (7 June 2021 22.00-23.00 GMT) using deep learning based 3D optical flow.
+An example of the derived cloud motion vectors and scene predictions from input GOES-16 B13 (thermal infrared) images (7 June 2021 22.00-23.00 GMT) using deep learning based 3D optical flow.
 
 <div class="table">
   <div class="table-row">
@@ -178,10 +178,32 @@ To be added.
 
 **Large area high-resolution 3D mapping of the lunar surface**
 
-Here we demonstrate using our in-house deep learning-based 3D modelling system to produce a large area high-resolution (260 × 209 km^2 at 1 m/pixel) digital terrain model (DTM) mosaic from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) images, over the Chang’E-4 landing site at Von Kármán crater. The resultant DTM mosaic is co-aligned with the Chang’E-2 (CE-2) and the Lunar Orbiter Laser Altimeter (LOLA) – SELenological and Engineering Explorer (SELENE) blended SLDEM, providing high spatial and vertical congruence. 
+Here we demonstrate using our in-house deep learning-based 3D modelling system to produce a large area high-resolution (260 × 209 km² at 1 m/pixel) digital terrain model (DTM) mosaic from the Lunar Reconnaissance Orbiter Camera (LROC) Narrow Angle Camera (NAC) images, over the Chang’E-4 landing site at Von Kármán crater. The resultant DTM mosaic is co-aligned with the Chang’E-2 (CE-2) and the Lunar Orbiter Laser Altimeter (LOLA) – SELenological and Engineering Explorer (SELENE) blended SLDEM, providing high spatial and vertical congruence. 
 
-To be added.
-
+<table>
+  <tr>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/moon-1.png" alt="moon-1" width="100%">
+      <p>The resultant 1 m LROC NAC DTM mosaic (colourised by height and hillshaded).</p>
+    </td>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/moon-2.png" alt="moon-2" width="100%">
+      <p>An example of the zoom-in views of the NASA PDS LROC NAC image (NAC_DTM_CHANGE4_M1303619844_140CM.IMG), the NASA PDS LROC NAC DTM (NAC_DTM_CHANGE4_E458S1775), and our LROC NAC DTM. The DTMs are shown as colourised heights (top) and shaded relief images (bottom).</p>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/moon-3.png" alt="moon-3" width="100%">
+      <p>An example of the zoom-in views of the NASA PDS LROC NAC image (NAC_DTM_CHANGE4_M1303619844_140CM.IMG), the NASA PDS LROC NAC DTM (NAC_DTM_CHANGE4_E458S1775), and our LROC NAC DTM. The DTMs are shown as colourised heights (top) and shaded relief images (bottom).</p>
+    </td>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/moon-4.png" alt="moon-4" width="100%">
+      <p>An example of the zoom-in views of the NASA PDS LROC NAC image (NAC_DTM_CHANGE4_M1303619844_140CM.IMG), the NASA PDS LROC NAC DTM (NAC_DTM_CHANGE4_E458S1775), and our LROC NAC DTM. The DTMs are shown as colourised heights (top) and shaded relief images (bottom).</p>
+    </td>
+  </tr>
+</table>
 
 # Services
 
