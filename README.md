@@ -212,6 +212,19 @@ In this work, we collect multi-view imaging data from ground-level robotic and o
 <table>
   <tr>
     <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/rover-3.png" alt="rover-3" width="100%">
+      <p>Input Mastcam images from the NASA Mars Science Laboratory's curiosity rover (at Solar day 131 – Gillespie Lake).</p>
+    </td>
+    <td style="width:50%; height:300px;">
+      <img src="https://surrey-ai-imaging-limited.github.io/demos/rover-4.png" alt="rover-4" width="100%">
+      <p>Output Mastcam 3D model using 8 input Mastcam images and a separately produced Navcam 3D model as reference baseline.</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td style="width:50%; height:300px;">
       <img src="https://surrey-ai-imaging-limited.github.io/demos/rover-1.gif" alt="rover-1" width="100%">
       <p>3D reconstruction results of the Navcam (greyscale) and Mastcam (RGB colour) images onboard the Mars Science Laboratory's Curiosity rover (at Solar day 120 – Shaler).</p>
     </td>
