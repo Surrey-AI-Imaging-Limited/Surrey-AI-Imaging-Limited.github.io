@@ -1,4 +1,4 @@
-# Surrey AI Imaging
+# Surrey AI Imaging ![Logo](https://surrey-ai-imaging-limited.github.io/pictures/logo.png)
 
 
 # Introduction
