@@ -1,9 +1,9 @@
-# Surrey AI Imaging ![Logo](https://surrey-ai-imaging-limited.github.io/pictures/logo.png)
+![Logo](https://surrey-ai-imaging-limited.github.io/pictures/logo.png)
 
 
 # Introduction
 
-Surrey AI Imaging Ltd. is a technology startup located in Surrey, UK that specialises in image processing and AI, particularly in the areas of planetary remote sensing and Earth observation. With extensive experience in computer vision, remote sensing, machine learning, and deep learning, the technical team at Surrey AI Imaging Ltd. possesses a comprehensive understanding of image processing algorithms, deep learning models, and their applications to solve complex and challenging problems in planetary and Earth remote sensing. Our expertise encompasses the following applications:
+Surrey AI Imaging Limited (SAIL) is a technology startup located in Surrey, UK that specialises in image processing and AI, particularly in the areas of planetary remote sensing and Earth observation. With extensive experience in computer vision, remote sensing, machine learning, and deep learning, the technical team at SAIL possesses a comprehensive understanding of image processing algorithms, deep learning models, and their applications to solve complex and challenging problems in planetary and Earth remote sensing. Our expertise encompasses the following applications:
 
 - Satellite image and video super-resolution restoration, including restoration of low-resolution (500 m - 1 km), high-resolution (20 m – 4 m), and ultra-high-resolution (30 cm – 1 m) imagery and videos, as well as from visible bands (panchromatic and RGB) and multispectral bands.
 - Photogrammetry, photoclinometry, structure from motion and monocular height estimation based 3D reconstruction (i.e., digital terrain modelling, topographic mapping).
@@ -15,7 +15,7 @@ Surrey AI Imaging Ltd. is a technology startup located in Surrey, UK that specia
 - Imaging and geospatial data analytics including image effective resolution measurements, multi-spectral statistics, geocalibration and camera model transformations and analysis.
 - GPU optimisations and onboard "smart-sattelite" solutions of remote sensing applications.
 
-Surrey AI Imaging Ltd. is dedicated to providing innovative and cutting-edge solutions to address the challenges faced in the field of satellite imaging and planetary remote sensing.
+SAIL is dedicated to providing innovative and cutting-edge solutions to address the challenges faced in the field of satellite imaging and planetary remote sensing.
 
 
 # People
@@ -25,12 +25,12 @@ Surrey AI Imaging Ltd. is dedicated to providing innovative and cutting-edge sol
     <td style="width:50%; height:300px;">
       <img src="https://surrey-ai-imaging-limited.github.io/pictures/crop-jiao.jpg" alt="Kejing Zhu" width="100%">
       <p>Kejing Zhu: Director and Company Secretary</p>
-      <p>Kejing Zhu brings Surrey AI Imaging Limited her leadership experience in fast growth technology start-ups of various sizes and across different industries including new media, data analysis, advertising business, remote sensing applications, education and outreach. She was previously Director of Cross Culture Communications Ltd. and has a background in accounting and marketing communications. Kejing has a M.A. degree in Interpreting from Middlesex University, London.</p>
+      <p>Kejing Zhu brings SAIL her leadership experience in fast growth technology start-ups of various sizes and across different industries including new media, data analysis, advertising business, remote sensing applications, education and outreach. She was previously Director of Cross Culture Communications Ltd. and has a background in accounting and marketing communications. Kejing has a M.A. degree in Interpreting from Middlesex University, London.</p>
     </td>
     <td style="width:50%; height:300px;">
       <img src="https://surrey-ai-imaging-limited.github.io/pictures/crop-dou.jpg" alt="Yu Tao" width="100%">
       <p>Dr. Yu Tao, Ph.D.: Technical Director</p>
-      <p>Yu Tao has extensive experience in the remote sensing industry and plantary science with a unique mix of expertise in computer vision, machine learning and deep learning, planetary remote sensing and Earth observation systems as well as software engineering. He has a long track record of successfully leading complex software engineering projects and achieving technology breakthroughs on challenging tasks. Prior to his work with Surrey AI Imaging Ltd. Yu was a senior research scientist at the University College London where he led and developed cutting-edge AI and computer vision software for plantary remote sensing and Earth observation applications. Yu has served as the lead researcher and software engineer in three European Commission 7th Framework – Space projects and as a co-investigator and project manager in two UK Space Agency Centre for Earth Observation and Instrumentation (CEOI) funded Earth observation initiatives. Yu holds a Ph.D. in Planetary 3D Imaging from the University College London and is currently serving as an Honorary Research Fellow at the same institution.</p>
+      <p>Yu Tao has extensive experience in the remote sensing industry and plantary science with a unique mix of expertise in computer vision, machine learning and deep learning, planetary remote sensing and Earth observation systems as well as software engineering. He has a long track record of successfully leading complex software engineering projects and achieving technology breakthroughs on challenging tasks. Prior to his work with SAIL, Yu was a senior research scientist at the University College London where he led and developed cutting-edge AI and computer vision software for plantary remote sensing and Earth observation applications. Yu has served as the lead researcher and software engineer in three European Commission 7th Framework – Space projects and as a co-investigator and project manager in two UK Space Agency Centre for Earth Observation and Instrumentation (CEOI) funded Earth observation initiatives. Yu holds a Ph.D. in Planetary 3D Imaging from the University College London and is currently serving as an Honorary Research Fellow at the same institution.</p>
     </td>
   </tr>
 </table>
@@ -250,7 +250,7 @@ UCL, NASA JPL, Joanneum Research (Austria)
 # Contact
 
 General: sail.imaging@gmail.com
-Technical collaboration: yu.tao@ucl.ac.uk
+Technical collaboration: yu.tao@fu-berlin.de
 
 
 # Social Media
