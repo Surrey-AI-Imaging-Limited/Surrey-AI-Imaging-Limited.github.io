@@ -1,4 +1,4 @@
-![Logo](https://surrey-ai-imaging-limited.github.io/pictures/logo.png)
+![Logo](https://surrey-ai-imaging-limited.github.io/pictures/logo2.png)
 
 
 # Introduction
