@@ -35,7 +35,6 @@ SAIIL is dedicated to providing innovative and cutting-edge solutions to address
   </tr>
 </table>
 
-<!--
 # Our work
 
 **Large Area High-Resolution 3D Mapping of Mars.**
@@ -235,7 +234,6 @@ In this work, we collect multi-view imaging data from ground-level robotic and o
   </tr>
 </table>
 
--->
 # Services
 
 - Software 
