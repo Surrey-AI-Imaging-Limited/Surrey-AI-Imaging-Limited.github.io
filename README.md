@@ -35,6 +35,7 @@ SAIIL is dedicated to providing innovative and cutting-edge solutions to address
   </tr>
 </table>
 
+<!-- 
 # Our work
 
 **Large Area High-Resolution 3D Mapping of Mars.**
@@ -259,3 +260,4 @@ Technical collaboration: yu.tao@saiil.co.uk
 - Facebook
 
 To be added.
+-->
